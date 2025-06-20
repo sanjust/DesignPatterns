@@ -36,6 +36,10 @@ namespace Momento.Controller
             {
                 return NotFound("Nothing to undo");
             }
+            catch (Exception ex)
+            {
+                return NotFound("There is some issue");
+            }
         }
     }
 }
