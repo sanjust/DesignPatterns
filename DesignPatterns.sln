@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Momento", "Behavioral\Momen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behaviour", "Behaviour", "{CB9F1C29-152E-43F0-833A-F5A205786E71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "Behavioral\Momento\StatePattern\StatePattern.csproj", "{447A381C-1B22-40E6-846B-C50B246E35A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "Behavioral\StatePattern\StatePattern.csproj", "{447A381C-1B22-40E6-846B-C50B246E35A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "Behavioral\StrategyPattern\StrategyPattern.csproj", "{CE0612F6-384E-4458-B03C-E31E2E725B3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{447A381C-1B22-40E6-846B-C50B246E35A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{447A381C-1B22-40E6-846B-C50B246E35A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{447A381C-1B22-40E6-846B-C50B246E35A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0612F6-384E-4458-B03C-E31E2E725B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0612F6-384E-4458-B03C-E31E2E725B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0612F6-384E-4458-B03C-E31E2E725B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0612F6-384E-4458-B03C-E31E2E725B3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,5 +39,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A678BD3D-F5DE-4782-9F0D-928C4E93A04D} = {CB9F1C29-152E-43F0-833A-F5A205786E71}
 		{447A381C-1B22-40E6-846B-C50B246E35A7} = {CB9F1C29-152E-43F0-833A-F5A205786E71}
+		{CE0612F6-384E-4458-B03C-E31E2E725B3F} = {CB9F1C29-152E-43F0-833A-F5A205786E71}
 	EndGlobalSection
 EndGlobal
