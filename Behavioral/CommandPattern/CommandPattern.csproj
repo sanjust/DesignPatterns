@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controller\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Interface\" />
+    <None Remove="CommandHandler\" />
+    <None Remove="Commands\" />
+    <None Remove="DataModel\" />
+    <None Remove="Invoker\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interface\" />
+    <Folder Include="CommandHandler\" />
+    <Folder Include="Commands\" />
+    <Folder Include="DataModel\" />
+    <Folder Include="Invoker\" />
+  </ItemGroup>
+</Project>
